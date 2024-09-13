@@ -1,0 +1,19 @@
+Отчет: Процесс кастомизации ArrayAdapter для Spinner
+
+1. Cоздания класса CustomSpinnerAdapter
+
+    Класс CustomSpinnerAdapter наследует ArrayAdapter
+
+    Поля класса:
+        private Context context; - контекст приложения
+        private String[] categories; - массив строк с названиями категорий
+        private int[] images; - массив идентификаторов изображений
+
+    Так же нужно создать в layout файл spinner_item_task3.xml, этот файл будет содержать элементы для отображения изображения и текста.
+
+2.  После создания кастомного адаптера, необходимо:
+        Создать массив категорий и изображений.
+        Установить кастомный адаптер для Spinner.
+        Для обработки события выбора элемента используем setOnItemSelectedListener().
+
+
